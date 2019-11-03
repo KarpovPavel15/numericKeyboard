@@ -1,0 +1,46 @@
+.container{
+    height: 693px;
+}
+.container-calc{
+    height: 100%;
+}
+#calc-table{
+    height: 60%;
+    width: 100%;
+}
+.displayNumbers{
+    width: 400px;
+    height: 30px;
+}
+.rowNumber{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.inputArea{
+    display: flex;
+    justify-content: center;
+}
+.rowContainer{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 100%;
+    background-color: aliceblue;
+}
+.number{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+.main-number,.main-numberDel,.main-numberClear{
+    height: 60px;
+    width: 60%;
+    background-color: cornsilk;
+}
